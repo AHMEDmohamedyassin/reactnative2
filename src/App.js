@@ -3,7 +3,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Camera from "./screen/camera";
 import Home from "./screen/home";
-import Video from "./screen/video";
+import VideoComp from "./screen/video";
 
 const Stack = createNativeStackNavigator();
 
@@ -26,7 +26,7 @@ function App() {
                   headerTitleStyle:{color:'#fff' , fontWeight:'bold'},
                 }}/>
                 <Stack.Screen name="Camera" component={Camera} />
-                <Stack.Screen name="Video" component={Video} />
+                <Stack.Screen name="VideoComp" component={VideoComp} />
             </Stack.Navigator>
         </NavigationContainer>
     );

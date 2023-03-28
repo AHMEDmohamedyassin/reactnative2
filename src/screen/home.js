@@ -37,7 +37,7 @@ function Home({navigation }) {
                     <Text style={styles.buttonText}>Camera</Text>
                 </TouchableOpacity>
 
-                <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Video')}>
+                <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('VideoComp')}>
                     <Text style={styles.buttonText}>Video</Text>
                 </TouchableOpacity>
 
