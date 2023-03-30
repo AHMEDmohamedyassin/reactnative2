@@ -33,12 +33,16 @@ function Home({navigation }) {
                     <Text>hello world</Text>
                 </View>
 
-                <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Camera')}>
-                    <Text style={styles.buttonText}>Camera</Text>
+                <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('PanResponseComp')}>
+                    <Text style={styles.buttonText}>PanResponse</Text>
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('VideoComp')}>
                     <Text style={styles.buttonText}>Video</Text>
+                </TouchableOpacity>
+                
+                <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('VibrationComp')}>
+                    <Text style={styles.buttonText}>VibrationComp</Text>
                 </TouchableOpacity>
 
             </ScrollView>

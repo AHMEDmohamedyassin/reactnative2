@@ -1,0 +1,5 @@
+AndroidManifest dir:
+android => app => src => main => AndroidManifest.xml
+
+vibration permission : 
+AndroidManifest.xml => <uses-permission android:name="android.permission.VIBRATE"/>
