@@ -5,6 +5,8 @@ import PanResponseComp from "./screen/panResponse";
 import Home from "./screen/home";
 import VideoComp from "./screen/video";
 import VibrationComp from "./screen/vibration";
+import CameraComp from "./screen/Camera";
+import SensorsComp from "./screen/sensors";
 
 const Stack = createNativeStackNavigator();
 
@@ -33,6 +35,8 @@ function App() {
                 <Stack.Screen name="PanResponseComp" component={PanResponseComp} />
                 <Stack.Screen name="VideoComp" component={VideoComp} />
                 <Stack.Screen name="VibrationComp" component={VibrationComp} />
+                <Stack.Screen name="CameraComp" component={CameraComp} />
+                <Stack.Screen name="SensorsComp" component={SensorsComp} />
             </Stack.Navigator>
         </NavigationContainer>
     );

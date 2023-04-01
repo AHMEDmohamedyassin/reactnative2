@@ -44,6 +44,14 @@ function Home({navigation }) {
                 <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('VibrationComp')}>
                     <Text style={styles.buttonText}>VibrationComp</Text>
                 </TouchableOpacity>
+                
+                <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('CameraComp')}>
+                    <Text style={styles.buttonText}>CameraComp</Text>
+                </TouchableOpacity>
+                
+                <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('SensorsComp')}>
+                    <Text style={styles.buttonText}>SensorsComp</Text>
+                </TouchableOpacity>
 
             </ScrollView>
         </SafeAreaView>
